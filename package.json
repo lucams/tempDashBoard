@@ -1,0 +1,27 @@
+{
+  "name": "temdashboard",
+  "version": "1.0.0",
+  "description": "RESTful Dashboard de Temperatura Setorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucams/tempDashBoard"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Luciano Monteiro",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.0",
+    "mongoose": "^4.11.13"
+  }
+}
